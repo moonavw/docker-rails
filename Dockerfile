@@ -1,5 +1,5 @@
-FROM moonavw/ruby:latest
-MAINTAINER Tao Wang <moonavw@gmail.com>
+FROM ruby:alpine
+LABEL maintainer="Tao Wang <moonavw@gmail.com>"
 
 RUN apk update && apk upgrade && \
     apk add --no-cache \
